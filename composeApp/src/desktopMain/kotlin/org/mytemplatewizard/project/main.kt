@@ -7,7 +7,7 @@ import org.mytemplatewizard.project.di.initKoin
 fun main() = application {
     Window(
         onCloseRequest = ::exitApplication,
-        title = "KmpNav3",
+        title = "KmpLearnDL",
     ) {
         initKoin()
         App()
