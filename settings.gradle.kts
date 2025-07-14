@@ -1,4 +1,4 @@
-rootProject.name = "KmpNav3"
+rootProject.name = "KmpLearnDL"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 pluginManagement {

@@ -63,10 +63,6 @@ kotlin {
             implementation(libs.koin.android)
             implementation(libs.koin.androidx.compose)
             implementation(libs.ktor.client.okhttp)
-            implementation("org.jetbrains.kotlinx:kotlin-deeplearning-tensorflow:0.5.2")
-            implementation("org.jetbrains.kotlinx:kotlin-deeplearning-onnx:0.5.2")
-            implementation("org.jetbrains.kotlinx:kotlin-deeplearning-visualization:0.5.2")
-            implementation("org.jetbrains.kotlinx:kotlin-deeplearning-api:0.5.2")
         }
         commonMain.dependencies {
             implementation(compose.runtime)
@@ -100,10 +96,10 @@ kotlin {
             implementation(libs.kotlinx.coroutines.core)
             implementation(libs.kotlinx.collections.immutable)
 
-            implementation("org.jetbrains.kotlinx:kotlin-deeplearning-tensorflow:0.5.2")
-            implementation("org.jetbrains.kotlinx:kotlin-deeplearning-onnx:0.5.2")
-            implementation("org.jetbrains.kotlinx:kotlin-deeplearning-visualization:0.5.2")
-            implementation("org.jetbrains.kotlinx:kotlin-deeplearning-api:0.5.2")
+            api("org.jetbrains.kotlinx:kotlin-deeplearning-tensorflow:0.5.2")
+            api("org.jetbrains.kotlinx:kotlin-deeplearning-onnx:0.5.2")
+            api("org.jetbrains.kotlinx:kotlin-deeplearning-visualization:0.5.2")
+            api("org.jetbrains.kotlinx:kotlin-deeplearning-api:0.5.2")
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)

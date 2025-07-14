@@ -17,11 +17,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.ui.tooling.preview.Preview
-import kmpnav3.composeapp.generated.resources.Res
-import kmpnav3.composeapp.generated.resources.compose_multiplatform
-import kmpnav3.composeapp.generated.resources.main_screen_history
-import kmpnav3.composeapp.generated.resources.main_screen_home
-import kmpnav3.composeapp.generated.resources.main_screen_settings
+import kmplearndl.composeapp.generated.resources.Res
+import kmplearndl.composeapp.generated.resources.compose_multiplatform
+import kmplearndl.composeapp.generated.resources.main_screen_history
+import kmplearndl.composeapp.generated.resources.main_screen_home
+import kmplearndl.composeapp.generated.resources.main_screen_settings
 import org.jetbrains.compose.resources.StringResource
 import org.mytemplatewizard.project.ui.theme.MyApplicationTheme
 import androidx.compose.material.icons.Icons
